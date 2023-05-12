@@ -9,8 +9,8 @@ export const Buscador=({buscar,setBuscar})=>{
                 <input 
                     type="text" 
                     className="form-control" 
-                    id="id" 
-                    placeholder="BUSCAR NOMBRE" 
+                    id="facu" 
+                    placeholder="BUSCAR POR FACULTAD" 
                     value={buscar} onChange={(event) => setBuscar(event.target.value)} />
             </div>
         </>
