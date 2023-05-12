@@ -88,7 +88,8 @@ export const FormularioEstudiante = ({
         {" "}
         <h1>Parcial Segundo Corte</h1>
         <form onSubmit={dondeGuardar}>
-          <div className="form-group">
+          <div class="contenedorG">
+          <div className="form-groupN">
             <label htmlFor="nombre">Nombre</label>
             <input
               type="text"
@@ -101,7 +102,7 @@ export const FormularioEstudiante = ({
               onChange={(event) => setNombre(event.target.value)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-groupS">
             <label htmlFor="semestre">Semestre</label>
             <select
               class="form-select"
@@ -190,10 +191,14 @@ export const FormularioEstudiante = ({
                 )}
             </select>
           </div>
-
-          <button type="submit" className="btn btn-primary">
-            {estadoBTN}
-          </button>
+                <br />
+                <div class="botonregistro">
+                  <button type="submit" className="btn btn-primary">
+                     {estadoBTN}
+                   </button>
+                </div>
+                <br />
+          </div>      
         </form>
       </>
     );

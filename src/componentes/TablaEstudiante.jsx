@@ -30,17 +30,18 @@ export const TablaEstudiante = ({
               <td>
                 {" "}
                 <button
-                  className="btn btn-info"
+                  className="botoneditar"
                   onClick={() => editar(estudiante)}
                 >
                   Editar
+                 
                 </button>
               </td>
 
               <td>
                 {" "}
                 <button
-                  className="btn btn-info"
+                  className="botoneliminar"
                   onClick={() => eliminarEstudiantes(estudiante)}
                 >
                   Eliminar
@@ -50,6 +51,9 @@ export const TablaEstudiante = ({
           ))}
         </tbody>
       </table>
+
+      <br />
+      
       <p className="h6">
         Trabajo realizado por: Andrés Santiago Santafe Silva, Oscar David
         Vergara, Hector José Guzmán.

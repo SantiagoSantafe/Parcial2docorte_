@@ -2,8 +2,12 @@
 export const Buscador=({buscar,setBuscar})=>{
     
     return (
-        <>
-        <div className="form-group ">
+        <body>
+        
+            <>
+        <br/>
+        
+        <div className="Busqueda">
 
             <label htmlFor="id">BUSCAR</label>
                 <input 
@@ -12,7 +16,13 @@ export const Buscador=({buscar,setBuscar})=>{
                     id="facu" 
                     placeholder="BUSCAR POR FACULTAD" 
                     value={buscar} onChange={(event) => setBuscar(event.target.value)} />
+
             </div>
+            <br />
         </>
+ 
+
+        </body>
+      
         )
 }

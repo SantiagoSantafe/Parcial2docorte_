@@ -1,3 +1,68 @@
 .table{
     background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fco.pinterest.com%2Fnubyguerrero%2Ffondos-escolares%2F&psig=AOvVaw3qf6qc_ELtsXUzbM3N98MM&ust=1681841694733000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDkr8rCsf4CFQAAAAAdAAAAABAE);
+    background-color: rgb(49, 103, 250);
+    align-items: center;
+    color: rgb(255, 255, 255);
 }
+h1{
+    background-color: rgb(240, 251, 255);
+    text-align: center;
+
+}
+.botoneliminar{
+    color:whitesmoke;
+    background-color: tomato;
+  
+}
+.botoneditar{
+    color: whitesmoke;
+    background-color: green;
+    border-bottom-left-radius: 10%;
+}
+
+.Busqueda{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-left: 263px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.form-control{
+    width: 250px;
+}
+
+.form-groupN{
+    padding-left: 515px;
+}
+
+.form-groupS{
+    padding-left: 515px;
+}
+.botonregistro{
+padding-left: 600px;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);     
+    opacity: 10px;  
+    border-radius: 15px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+     background: linear-gradient(rgb(245, 251, 255),rgb(132, 228, 245),rgb(245, 252, 255));
+    border-radius: 30px;       
+  }
+
+
+  .contenedorG{
+    background-color: rgb(240, 251, 255);
+  }
+
+
+
