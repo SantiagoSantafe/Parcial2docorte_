@@ -86,7 +86,7 @@ export const FormularioEstudiante = ({
     return (
       <>
         {" "}
-        <h1>Parcial Segundo Corte</h1>
+        <h1>Formulario Universitario</h1>
         <form onSubmit={dondeGuardar}>
           <div class="contenedorG">
           <div className="form-groupN">
