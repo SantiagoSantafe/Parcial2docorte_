@@ -141,7 +141,9 @@ export const FormularioEstudiante = ({
                 };
                 if (event.target.value === "Derecho") {
                   setPrograma("Derecho Civil");
-                }else(setPrograma("Comunicación Audiovisual"))
+                }if (event.target.value === "Comunicación") {
+                  setPrograma("Comunicación Audiovisual");
+                } 
               }}
             >
               <option>Medicina</option>
