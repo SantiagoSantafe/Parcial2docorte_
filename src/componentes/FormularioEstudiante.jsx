@@ -134,7 +134,15 @@ export const FormularioEstudiante = ({
               id="facultad"
               placeholder={valorFacultad}
               value={facultad}
-              onChange={(event) => setFacultad(event.target.value)}
+              onChange={(event) => {
+                setFacultad(event.target.value);
+                if (event.target.value === "Ingeniería") {
+                  setPrograma("Ing.Informática");
+                };
+                if (event.target.value === "Derecho") {
+                  setPrograma("Derecho Civil");
+                }else(setPrograma("Comunicación Audiovisual"))
+              }}
             >
               <option>Medicina</option>
               <option>Derecho</option>

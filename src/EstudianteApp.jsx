@@ -18,7 +18,7 @@ export const EstudiantesApp = () => {
     const [semestre, setSemestre] = useState(1);
     const [facultad,setFacultad]=useState("Medicina");
     const[genero,setGenero]=useState("Masculino");
-    const[programa,setPrograma]=useState("Ing.Informatica")
+    const[programa,setPrograma]=useState("Medicina")
     const cargeEstudiantes=async()=>{
         const datos=await getEstudiantes();
         console.log(datos)
