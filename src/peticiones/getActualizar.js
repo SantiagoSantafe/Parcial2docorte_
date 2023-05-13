@@ -5,5 +5,4 @@ export const getActualizar=async(codigo, estudiante)=>{
         headers:{'Content-type':'application/json'},
         body:JSON.stringify(estudiante)
     });
-    alert(resp)
 }
